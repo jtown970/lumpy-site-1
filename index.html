@@ -6,31 +6,36 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LRB CO. | Home</title>
+    <title>LRB CO. | Home testing</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/popUp.css">
+    <!-- <link rel="stylesheet" href="/css/popUp.css"> -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="welcome.css">
+  <!-- <link rel="stylesheet" href="/css/index.css"> -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script defer src="/main.js"></script>
+
 </head>
 
 <body>
+    
 
     <header id="home">
         <div class="container">
-            <div class="hamburger-menu">
+            <div class="hamburger-menu nav-icon-1">
                 <i class="fas fa-bars toggle"></i>
                 <i class="fas fa-times toggle"></i>
             </div>
             <nav class="d-flex align-items-center justify-content-center justify-content-lg-between">
                 <a class="navbar-brand" href="index.html">
-                    <img class="parallax img-fluid" src="images/lrb-logo-trans1.png" alt="">
+                    <img class="parallax img-fluid" src="images/logo-white-text.png" alt="">
                 </a>
-                <ul class="nav-list text-center p-0">
+                <ul class=" nav-list text-center p-0">
                     <li class="nav=-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
@@ -69,11 +74,11 @@
             </div>
         </div>
     </header>
-    <main>
+   
         <!-- info section
     ==========================================-->
-
-        <div id="tf-services" class="text-center mt-5 mb-3">
+<div class="alert">
+        <div id="tf-services" class="text-center p-1 mt-5 mb-3">
             <div class="container">
                 <div class="section-title center">
                     <h2> <strong>Alert</strong></h2>
@@ -116,13 +121,14 @@
                 </div>
             </div>
         </div>
-        <hr>
+    </div>
+      
 
         <!-- about -->
         <section class="about" id="about">
-            <div class="spacing">
-            <div class="container mt-3">
-                <div class="row align-items-lg-center">
+            <div class="spacing ">
+            <div class="container ">
+                <div class="row align-items-lg-center justify-content-center">
                     <div class="col-12 col-md-6 text-center text-md-left" data-aos="fade-right">
                         <div class="section-heading mb-3">
                             <h4>Lumpy Ridge Brewing CO.</h4>
@@ -131,7 +137,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci numquam laudantium harum!
                             Enim dolores maxime, quae repudiandae impedit in consectetur, doloremque dicta magnam
                             similique perferendis mollitia nulla sunt molestias quibusdam.</p>
-                        <a class="btn mt-4 mb-5 mb-md-0" href="#">See More</a>
+                        <!-- <a class="btn mt-4 mb-5 mb-md-0" href="#">See More</a> -->
                     </div>
                     <div class="col-12 col-md-6" data-aos="fade-left">
                         <img class="img-fluid m-4" src="images/pour-beer.PNG" alt="">
@@ -141,8 +147,8 @@
         </section>
         <section class="menu" id="menu">
             <div class="container">
-                <div class="row text-center text-white">
-                    <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="fade-left">
+                <div class="row text-center text-black p-5 ">
+                    <div class="col-12 col-md-4 mb-4 mb-md-0 " data-aos="fade-left">
                         <div class="shop-info">
                             <i class="far fa-clock mb-3"></i>
                             <h1 class="mb-4">Hour of operation</h1>
@@ -172,173 +178,229 @@
                 <hr class="mt-5">
             </div>
         </div>
-            <div class="tf-beer container-fluid p-0">
+            <div class="tf-beer container-fluid pb-1 mb-5">
                 <div class="section-heading my-5 text-center">
                     <h1 class="text-white">Beer List</h1>
                     <h1 class="display-4">ON TAP</h1>
                     <h4 class="text-white">CANS -6 PACKS-$10, SINGLE CANS-$5, 24 PACK-$36</h4>
 
                 </div>
+            </section>
 
-                <!-- Control buttons -->
-                <!-- <div class="d-flex flex-row" id="myBtnContainer">
-    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-    <button class="btn" onclick="filterSelection('lager')"> Lager</button>
-    <button class="btn" onclick="filterSelection('ipa')"> IPA</button>
-    <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-    <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-  </div> -->
-                <!-- row number 1 -->
-                <div class="#tf-beer row no-gutters">
-                    <!-- column set num 1 -->
-                    <div class="filterDiv lager all col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 "
-                        data-aos="fade-in">
-                        <img class="img-fluid" src="images/lrb-beer1.PNG" alt="">
-                    </div>
-                    <div class="filterDiv lager all col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2 point-left"
-                        data-aos="fade-in">
-                        <div class="menu-item-desc">
-                            <h1>RANCHO DELUXE WESTERN AMERICAN LAGER</h1>
-                            <h6>Brewed by Barrett Smith</h6>
-                            <p>HIPPIES & COWBOYS AIN’T THAT DIFFERENT. I JUST FIND THE LATTER TO BE MORE RELIABLE.” THIS
-                                IS OUR SUMMERTIME GOOD TIME HAVE’N FREEDOM LOV’N, PORCH POUND’N WESTERN AMERICAN LAGER.
-                                LIGHT A& SMOOTH BODY W/ A CLEAN, DRY FINISH. 5% ABV</p>
-                            <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
-                        </div>
-                    </div>
-                    <!-- column set num 2 -->
-                    <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-3" data-aos="fade-in">
-                        <img class="img-fluid" src="images/lrb-beer1.PNG" alt="">
-                    </div>
-                    <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4 point-left"
-                        data-aos="fade-in">
-                        <div class="menu-item-desc">
-                            <h1>SUN LION LIME WHEAT</h1>
-                            <h6>Brewed by Barrett Smith</h6>
-                            <p>THIS WHEAT BEER HAS A LIGHT GOLDEN BODY W/ NUANCES OF LIME & GUANABANA(TROPICAL) FRUIT.
-                                BEST SERVED WITH A LIME! 5.9% ABV</p>
-                            <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
-                        </div>
-                    </div>
-                    <!-- column set num 3 -->
-                    <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5" data-aos="fade-in">
-                        <img class="img-fluid" src="images/lrb-beer1.PNG" alt="">
-                    </div>
-                    <div class="filterDiv lager all col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6 point-left"
-                        data-aos="fade-in">
-                        <div class="menu-item-desc">
-                            <h1>OGG’S FM(F^#K’N MAGIC)</h1>
-                            <h6>Brewed by Barrett Smith</h6>
-                            <p>GERMAN AMBER LAGER-A TRUE TO STYLE GERMAN ALTBIER. THIS BEER FEATURES RICH MUNICH MALTS &
-                                BRIGHT GERMAN/AMERICAN HOPS. 5.5% ABV</p>
-                            <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
-                        </div>
-                    </div>
+<!-- testing img gal  -->
+<div class='beerlist'>
+    <ul>
+        <div class="flexing">
+            <li class="flexing" data-aos="fade-right" >
+                <a class='normal' >
+                    <img class="beerl" src="/images/lrb-beer1.PNG" alt="">
+                </a>
+                <div class='info'>
+                    <h3>Hours</h3>
+                    <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                        Truffaut jean shorts.</p>
+                </div>
+            </li>
+
+            <li class="flexing" data-aos="fade-right">
+                <a class='normal'>
+                    <img class="beerl" src="/images/lrb-beer2.PNG" alt="">
+
+                </a>
+                <div class='info'>
+                    <h3>Single-origin coffee whatever</h3>
+                    <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                        Truffaut jean shorts.</p>
+                </div>
+            </li>
+
+            <li class="flexing" data-aos="fade-left">
+                <a class='normal'>
+                    <img class="beerl" src="/images/lrb-beer3.PNG" alt="">
+
+                </a>
+                <div class='info'>
+                    <h3>Single-origin coffee whatever</h3>
+                    <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                        Truffaut jean shorts.</p>
                 </div>
 
-                <!-- row number 2  -->
-                <div class="row no-gutters">
-                    <!-- column set num 4 -->
-                    <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2" data-aos="fade-in">
-                        <img class="img-fluid" src="images/lrb-beer1.PNG" alt="">
-                    </div>
-                    <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 point-right"
-                        data-aos="fade-in">
-                        <div class="menu-item-desc">
-                            <h1>THURMAN’S STOUT</h1>
-                            <h6>Brewed by someone else</h6>
-                            <p>AN AMERICAN/CARIBBEAN STOUT W/ DARK CHOCOLATE & ESPRESSO ROAST W/ LEMON AND PINEY FLAVORS
-                                DERIVED FROM A HEALTHY DOSE OF CENTENNIAL HOPS. 5.8% ABV</p>
-                            <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
-                        </div>
-                    </div>
-                    <!-- column set num 5 -->
-                    <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4" data-aos="fade-in">
-                        <img class="img-fluid" src="images/lrb-beer1.PNG" alt="">
-                    </div>
-                    <div class="filterDiv lager all col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-3 point-right"
-                        data-aos="fade-in">
-                        <div class="menu-item-desc">
-                            <h1>CASCADE DOUBLE DRY HOPPED AMERICAN IPA</h1>
-                            <h6>Brewed by Someone</h6>
-                            <p>this cake is great and everyone loves it</p>
-                            <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
-                        </div>
-                    </div>
-                    <!-- column set num 6 -->
-                    <div class="filterDiv lager all col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6" data-aos="fade-in">
-                        <img class="img-fluid" src="images/lrb-beer1.PNG" alt="">
-                    </div>
-                    <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5 point-right"
-                        data-aos="fade-in">
-                        <div class="menu-item-desc">
-                            <h1>MAKE ESTES WEIRD AGAIN</h1>
-                            <h6>Brewed by Barrett Smith</h6>
-                            <p>this cake is great and everyone loves it</p>
-                            <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
-                        </div>
-                    </div>
+            </li>
+            <li class="flexing" data-aos="fade-left">
+                <a class='normal'>
+                    <img class="beerl" src="/images/lrb-beer4.PNG" alt="">
+
+                </a>
+                <div class='info'>
+                    <h3>Single-origin coffee whatever</h3>
+                    <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                        Truffaut jean shorts.</p>
                 </div>
-                <!-- Comming Soon List -->
+            </li>
+        </div>
+        <div class="flexing">
+            <li class="flexing" data-aos="fade-right">
+                <a class='normal'>
+                    <img class="beerl" src="/images/lrb-beer1.PNG" alt="">
+                </a>
+                <div class='info'>
+                    <h3>Hours</h3>
+                    <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                        Truffaut jean shorts.</p>
+                </div>
+            </li>
+
+            <li class="flexing" data-aos="fade-right">
+                <a class='normal'>
+                    <img class="beerl" src="/images/lrb-beer2.PNG" alt="">
+
+                </a>
+                <div class='info'>
+                    <h3>Single-origin coffee whatever</h3>
+                    <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                        Truffaut jean shorts.</p>
+                </div>
+            </li>
+
+            <li class="flexing" data-aos="fade-left">
+                <a class='normal'>
+                    <img class="beerl" src="/images/lrb-beer3.PNG" alt="">
+
+                </a>
+                <div class='info'>
+                    <h3>Single-origin coffee whatever</h3>
+                    <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                        Truffaut jean shorts.</p>
+                </div>
+
+            </li>
+            <li class="flexing" data-aos="fade-left">
+                <a class='normal'>
+                    <img class="beerl" src="/images/lrb-beer4.PNG" alt="">
+
+                </a>
+                <div class='info'>
+                    <h3>Single-origin coffee whatever</h3>
+                    <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                        Truffaut jean shorts.</p>
+                </div>
+            </li>
+        </div>
+</div>
+
+
+
+
+
+
                 <div class="container-fluid p-0">
-                    <div class="section-heading my-5 text-center">
+                    <div class=" soon section-heading my-5 text-center">
                         <h4 class="text-white">Beer List</h4>
                         <h1 class="display-4">Comming Soon!</h1>
-
                     </div>
-                    <!-- row number 3 comming soon -->
-                    <div class="row no-gutters">
-                        <!-- column set num 1 -->
-                        <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2"
-                            data-aos="fade-in">
-                            <img class="img-fluid" src="images/lrb-beer1.PNG" alt="">
-                        </div>
-                        <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 point-right"
-                            data-aos="fade-in">
-                            <div class="menu-item-desc">
-                                <h1>THURMAN’S STOUT</h1>
-                                <h6>Brewed by someone else</h6>
-                                <p>AN AMERICAN/CARIBBEAN STOUT W/ DARK CHOCOLATE & ESPRESSO ROAST W/ LEMON AND PINEY
-                                    FLAVORS DERIVED FROM A HEALTHY DOSE OF CENTENNIAL HOPS. 5.8% ABV</p>
-                                <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
+                    <div class='beerlist'>
+                        <ul>
+                            <div class="flexing" >
+                                <li class="flexing" data-aos="fade-right">
+                                    <a class='normal' >
+                                        <img class="beerl" src="/images/lrb-beer1.PNG" alt="">
+                                    </a>
+                                    <div class='info'>
+                                        <h3>test click</h3>
+                                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                                            Truffaut jean shorts.</p>
+                                    </div>
+                                </li>
+                    
+                                <li class="flexing" data-aos="fade-right">
+                                    <a class='normal'>
+                                        <img class="beerl" src="/images/lrb-beer2.PNG" alt="">
+                    
+                                    </a>
+                                    <div class='info'>
+                                        <h3>Single-origin coffee whatever</h3>
+                                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                                            Truffaut jean shorts.</p>
+                                    </div>
+                                </li>
+                    
+                                <li class="flexing" data-aos="fade-left">
+                                    <a class='normal'>
+                                        <img class="beerl" src="/images/lrb-beer3.PNG" alt="">
+                                    </a>
+                                    <div class='info'>
+                                        <h3>Single-origin coffee whatever</h3>
+                                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                                            Truffaut jean shorts.</p>
+                                    </div>
+                    
+                                </li>
+                                <li class="flexing" data-aos="fade-left">
+                                    <a class='normal'>
+                                        <img class="beerl" src="/images/lrb-beer4.PNG" alt="">
+                    
+                                    </a>
+                                    <div class='info'>
+                                        <h3>Single-origin coffee whatever</h3>
+                                        <p>Williamsburg tofu polaroid, 90's Bushwick irony locavore ethnic meh messenger bag
+                                            Truffaut jean shorts.</p>
+                                    </div>
+                                </li>
                             </div>
-                        </div>
-                        <!-- column set num 5 -->
-                        <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4"
-                            data-aos="fade-in">
-                            <img class="img-fluid" src="images/lrb-beer1.PNG" alt="">
-                        </div>
-                        <div class="filterDiv lager all col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-3 point-right"
-                            data-aos="fade-in">
-                            <div class="menu-item-desc">
-                                <h1>CASCADE DOUBLE DRY HOPPED AMERICAN IPA</h1>
-                                <h6>Brewed by Someone</h6>
-                                <p>this cake is great and everyone loves it</p>
-                                <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
+ 
                             </div>
-                        </div>
-                        <!-- column set num 6 -->
-                        <div class="filterDiv lager all col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6"
-                            data-aos="fade-in">
-                            <img class="img-fluid" src="images/lrb-beer1.PNG" alt="">
-                        </div>
-                        <div class="filterDiv ipa all col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5 point-right"
-                            data-aos="fade-in">
-                            <div class="menu-item-desc">
-                                <h1>MAKE ESTES WEIRD AGAIN</h1>
-                                <h6>Brewed by Barrett Smith</h6>
-                                <p>this cake is great and everyone loves it</p>
-                                <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
-                            </div>
-                        </div>
                     </div>
-        </section>
+                    </div>
+                    
 <!-- map -->
 <div class="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.7972372681934!2d-105.50687868435213!3d40.369020066463314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876965de3f6b5deb%3A0xf02fddb441cee30f!2sLumpy%20Ridge%20Brewing%20Co.!5e0!3m2!1sen!2sus!4v1585800416006!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 
-        <hr>
+        
+
+
+<!-- slider -->
+<div class="display-container">
+    <div class="display">
+      <div class="display-item">
+        <div class="gallery">
+          <input type="radio" name="item" checked id="item-0" />
+          <div class="gallery-item">          
+            <label for="item-3" class="left"></label>
+            <div class="image">
+              <img src='https://images.unsplash.com/photo-1506700460003-dddfca73c2e5?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D%0A&s=bd103f534c677bb77615a9d40739ceef' alt=''>
+            </div>
+            <label for="item-1" class="right"></label>
+          </div>
+          <input type="radio" name="item" id="item-1" />
+          <div class="gallery-item">          
+            <label for="item-0" class="left"></label>
+            <div class="image">
+              <img src='https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D%0A&s=96b44f4548f55d146d41e473b1d06ce6' alt=''>
+            </div>
+            <label for="item-2" class="right"></label>
+          </div>
+          <input type="radio" name="item" id="item-2" />
+          <div class="gallery-item">          
+            <label for="item-1" class="left"></label>
+            <div class="image">
+              <img src='https://images.unsplash.com/photo-1502285485636-d4ddf26eafa5?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D%0A&s=eb9032b25430e00b8fa90aeb664781d3' alt=''>
+            </div>
+            <label for="item-3" class="right"></label>
+          </div>
+          <input type="radio" name="item" id="item-3" />
+          <div class="gallery-item">          
+            <label for="item-2" class="left"></label>
+            <div class="image">
+              <img src='https://images.unsplash.com/photo-1501103369114-ffc7e1b7f872?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D%0A&s=2776eae67387060ab6c4d85884cfc5e8' alt=''>
+            </div>
+            <label for="item-0" class="right"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- contact form -->
 
@@ -381,10 +443,26 @@
 
 </div>
 
-        <footer class="text-center py-5">
-            &copy; Jason Towner 2020
-        </footer>
-    </main>
+    
+
+    <nav id="footer">
+        <div class="footContainer">
+            <div class="pull-left fnav">
+                <p>ALL RIGHTS RESERVED. COPYRIGHT © 2020. Edited Coded by <a href="#">Jason Towner</a></p>
+            </div>
+            <div class="pull-right fnav">
+                <ul class="footer-social">
+                    <li><a href="https://www.facebook.com/dapperkc1"><i  class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/dapper_kc/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="mailto:daniel@dapperkc.com?Subject=From-DapperKC-Website"><i class="fa fa-envelope-square"></i></a></li>
+                    <li><a href="https://itunes.apple.com/us/app/dapperkc/id1269038731?mt=8"><i class="fas fa-phone"></i></a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.starchup.dapperkc"></a><i class="fab fa-yelp"></i></a></li>
+                    <!--<li><a href="tel:816-307-0483"><i class="fa fa-phone"></i></a></li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 
     <script src="https://kit.fontawesome.com/ba33ab971e.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -403,8 +481,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.js" integrity="sha256-X52UxxXhNhqxzN/kkl6XoPC5i/48En56iWi0+NE9k+4=" crossorigin="anonymous"></script>
     <script src="/js/move.js"> </script>
-    
-    <style type="text/css">* {cursor: url(http://cur.cursors-4u.net/food/foo-2/foo108.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2006/03/04/foo108.html" target="_blank" title="Beer"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Beer" style="position:absolute; top: 0px; right: 0px;" /></a>
+    <script defer src="photo.js"></script>
+<!--     
+    <style type="text/css">* {cursor: url(http://cur.cursors-4u.net/food/foo-2/foo108.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2006/03/04/foo108.html" target="_blank" title="Beer"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Beer" style="position:absolute; top: 0px; right: 0px;" /></a> -->
 
 </body>
 
